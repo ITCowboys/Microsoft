@@ -31,7 +31,8 @@ In the Microsoft Security Center -> Email & Collaboration -> Policies -> Preset 
 - Turn of Standard and Strict Protection
 - Exclude your domains from the Built-in Protection
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/assets/159010089/f551ad0b-4829-4866-a23f-2010a20a2ed2)
+
 
 Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.001.png)
 
