@@ -4,7 +4,7 @@ This Repo is proudly presented to you by the ITCowboys (www.itcowboys.nl)
 
 **About ITCowboys**
 
-ITCowboys consists of two highly passionate and technically skilled professionals who love to share and inspire knowledge and Best Pracitses to everyone who follows our Community. ITCowboys was born on the 1st of January 2024, and Brought to life by Jordy Herber and Paul Erlings.
+ITCowboys consists of two highly passionate and technically skilled professionals who love to share and inspire knowledge and Best Practises to everyone who follows our Community. ITCowboys was born on the 1st of January 2024, and Brought to life by Jordy Herber and Paul Erlings.
 
 We consistaly Blog on our Website and Linkedin, provide you with a bi-weekly Podcast and now also provide you with some in depth information, how-to's, Best Practises and Code Examples on this Github Repo!
 
