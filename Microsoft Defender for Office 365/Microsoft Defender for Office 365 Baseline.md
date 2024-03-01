@@ -31,7 +31,7 @@ In the Microsoft Security Center -> Email & Collaboration -> Policies -> Preset 
 - Turn of Standard and Strict Protection
 - Exclude your domains from the Built-in Protection
 
-![image](https://github.com/ITCowboys/Microsoft/Source/Picture1.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture1.png)
 
 
 Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.001.png)
@@ -66,7 +66,7 @@ We highly recommend that you know of the existence and capacities of the Configu
 
 We don’t recommend using the Configuration Analyzer or ORCA scan at this but it will come in handy in de future when you have deployed your own Best-Practices and Configuration within Microsoft Defender for Office 365. With this overview you are able to get insight into configuration drifts and changes. Is is a great addition to your documentation 😊
 
-![image](https://github.com/ITCowboys/Microsoft/Source/Picture2.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture2.png)
 
 
 ## Anti-Phishing
