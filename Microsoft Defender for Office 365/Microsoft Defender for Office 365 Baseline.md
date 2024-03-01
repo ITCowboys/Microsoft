@@ -95,13 +95,9 @@ First of all, we need to make sure that de Default Anti-Phishing Policy won’t 
 
 Whitin the Microsoft Security Portal -> Email & Collaboration -> Threat Policies -> Anti-Phishing Select the “Office365 AntiPhish Default (Default)” or any other Policy and make sure all the settings are disabled:
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture3.png)
 
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.003.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.004.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture4.png)
 
 Based on our Knowledge and developed Best Practices we recommend the following values for configuring Anti-Phishing Policies:
 
@@ -159,37 +155,23 @@ First of all, we need to make sure that de Default Anti-Phishing Policies won’
 
 Whitin the Microsoft Security Portal -> Email & Collaboration -> Threat Policies -> Anti-Spam Select the “Anti-spam inbound policy  (Default)” or any other Inbound Policy and make sure all the settings are disabled:
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture5.png)
 
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.005.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture6.png)
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture7.png)
 
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.006.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.007.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.008.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture8.png)
 
 Secondly Whitin the Microsoft Security Portal -> Email & Collaboration -> Threat Policies -> Anti-Spam Select the “Anti-spam outbound policy  (Default)” or any other outbound Policy and make sure all the settings are disabled:
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture9.png)
 
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.009.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.010.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture10.png)
 
 Lastly whitin the Microsoft Security Portal -> Email & Collaboration -> Threat Policies -> Anti-Spam Select the “Connectorion Filter policy  (Default)” or any other Connection Filter Policy and make sure all the settings are blank or reviewed and legit:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.011.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture11.png)
 
 Based on our Knowledge and developed Best Practices we recommend the following values for configuring Anti-Spam Policies:
 
@@ -260,9 +242,7 @@ First of all, we need to make sure that de Default Anti-Malware Policies won’t
 
 Whitin the Microsoft Security Portal -> Email & Collaboration -> Threat Policies -> Anti-Malware Select the “Default (Default)” or any other Anti-Malware Policy and make sure all the settings are disabled:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.012.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture12.png)
 
 Based on our Knowledge and developed Best Practices we recommend the following values for configuring Anti-Malware Policies:
 
@@ -306,9 +286,7 @@ First of all, we need to make sure that de Default Safe Attachment Policies won�
 
 Whitin the Microsoft Security Portal -> Email & Collaboration -> Threat Policies -> Safe Attachments Select the “Built-in protection (Default)” or any other Safe Attachments Policy and make sure all the owned domains are excluded:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.013.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture13.png)
 
 Based on our Knowledge and developed Best Practices we recommend the following values for configuring Safe Attachment Policies:
 
@@ -354,9 +332,7 @@ First of all, we need to make sure that de Default Safe Links Policies won’t b
 
 Whitin the Microsoft Security Portal -> Email & Collaboration -> Threat Policies -> Safe Links Select the “Built-in protection (Default)” or any other Safe Links Policy and make sure all the owned domains are excluded:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.014.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture14.png)
 
 Based on our Knowledge and developed Best Practices we recommend the following values for configuring Safe Links Policies:
 
@@ -387,13 +363,9 @@ Next to the main Products within Microsoft Defender for Office 365 are some smal
 Within the Microsoft Security Portal -> Email & Collaboration -> Threat Policies -> Tenant Allow/Block List check for Allowed Domains & Addresses and Spoofed Senders:
 
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture15.png)
 
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.015.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.016.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture16.png)
 
 **Recommendation:**
 
@@ -403,9 +375,7 @@ Don’t whitelist Domains & Senders and Spoofed Addresses
 
 Within the Microsoft Security Portal -> Email & Collaboration -> Threat Policies -> Email Authentication Settings and check your DKIM configuration:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.017.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture17.png)
 
 **Recommendation**
 
@@ -415,15 +385,11 @@ If DKIM is not enabled please enable as soon as possible!
 
 Within the Microsoft Security Portal -> Email & Collaboration -> Threat Policies -> Quarantine Policy and check your Global Settings:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.018.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture18.png)
 
 Make sure your Quarantine Policies have the default Values:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.019.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture19.png)
 
 **Recommendations:**
 
