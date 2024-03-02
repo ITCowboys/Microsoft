@@ -35,6 +35,7 @@ In the Microsoft Security Center -> Email & Collaboration -> Policies -> Preset 
 
 
 
+
 Since we are going to create our own Policies within Microsoft Defender for Office 365 we don’t need the Standard, Strict or Built-in Policies to conflict with your custom ones Based on Best Practices 😊
 
 With Powershell you can view the individual security policies for the Built-in protection preset security policy, run this command:

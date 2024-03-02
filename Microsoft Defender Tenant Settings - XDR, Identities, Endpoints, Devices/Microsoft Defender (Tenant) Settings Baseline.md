@@ -30,9 +30,7 @@ Microsoft Defender XDR extends beyond just endpoint security, offering a compreh
 
 In the Microsoft Security Center -> Settings -> Microsoft Defender XDR -> Preset Security Policies we recommend the following:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.001.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture1.png)
 
 |**Microsoft Defender XDR Settings**|**Recommendation**|**Note**|
 | :- | :- | :- |
@@ -63,9 +61,7 @@ Endpoint settings within the Microsoft Defender Portal are crucial for configuri
 
 In the Microsoft Security Center -> Settings -> Endpoints we recommend the following:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.002.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture2.png)
 
 |**Endpoints Settings** |**Recommendation**|**Notes**|
 | :- | :- | :- |
@@ -114,49 +110,33 @@ In the Microsoft Security Center -> Settings -> Identities we recommend the foll
 
 Make sure you are using Microsoft Defender for Identity, the first thing you need to do is checking if you already have a Sensor in your local AD-infrastructure deployed.
 
-![Screens screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.003.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture3.png)
 
 In order to be able to connect your on-premises environment to the Cloud please configure an Directory Service account. For more information and options please visit <https://learn.microsoft.com/en-us/defender-for-identity/deploy/directory-service-accounts> 
 
 If you don’t have a sensor in your local AD-infrastructure please click “Add sensor”  and download the sensor. Secondly install the sensor on 1 or more Domain Controllers using the Access Key
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture4.png)
 
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.004.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.005.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture5.png)
 
 The next step is to check if your Action Account automatically uses the sensor’s local system account
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.006.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture6.png)
 
 Make sure you Adjust the Alerts Thresholds with the following values:
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture7.png)
 
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.007.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.008.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture8.png)
 
 Make sure you are able to receive Alerts about Health Issues:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.009.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture9.png)
 
 Lastly make sure you are able to receive Alert Notifications
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.010.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture10.png)
 
 # Cloud Apps Settings
 
@@ -175,45 +155,31 @@ In the Microsoft Security Center -> Settings -> Cloud Apps we recommend the foll
 
 Make sure you get notifications from Medium or above from Microsoft Defender for Cloud Apps
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.011.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture11.png)
 
 Enforce App Access for Microsoft Defender for Endpoint
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.012.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture12.png)
 
 Connect Microsoft Azure to Microsoft Defender for Cloud Apps
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.013.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture13.png)
 
 Edit Settings for the Microsoft 365 Connector
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.014.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture14.png)
 
 Make sure all are enabled
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.015.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture15.png)
 
 Make sure you enable the settings below for Microsoft Information Protection integration
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.016.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture16.png)
 
 Enable File Monitoring
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.017.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture17.png)
 
 # Actions & Submissions
 
@@ -229,13 +195,9 @@ Actions & Submissions within the Microsoft Defender Portal encompass a set of fu
 
 In the Microsoft Security Center -> Actions & Submissions -> User Reported Settings the following:
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture18.png)
 
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.018.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.21fef7e0-0478-4f78-9694-36c21d2c9369.019.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20Tenant%20Settings%20-%20XDR%2C%20Identities%2C%20Endpoints%2C%20Devices/Source/Picture19.png)
 
 |**Actions & Submissions Settings**|**Recommendation**|**Notes**|
 | :- | :- | :- |
