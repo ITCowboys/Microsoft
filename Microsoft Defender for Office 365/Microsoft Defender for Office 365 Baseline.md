@@ -34,7 +34,6 @@ In the Microsoft Security Center -> Email & Collaboration -> Policies -> Preset 
 ![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Office%20365/Source/Picture1.png)
 
 
-Description automatically generated](Aspose.Words.afafb00d-3be9-4b3c-83da-12720c2c65a8.001.png)
 
 Since we are going to create our own Policies within Microsoft Defender for Office 365 we don’t need the Standard, Strict or Built-in Policies to conflict with your custom ones Based on Best Practices 😊
 
