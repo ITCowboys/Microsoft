@@ -23,7 +23,7 @@ For example: one of the settings below enables you to use your Intune Configurat
 
 In the Microsoft Security Center -> Settings -> Endpoints we recommend the following:
 
-Picture1.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture1.png)
 
 |**Endpoints Settings** |**Recommendation**|**Notes**|
 | :- | :- | :- |
@@ -56,230 +56,169 @@ For more information on how to configure your Microsoft Defender Tenant Settings
 
 Within the Microsoft Intune Admin Center -> Endpoint Security – Antivirus -> Create a new Policy
 
-Picture2.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture2.png)
 
 Create a profile for Windows 10, Windows 11 and Windows Server and Choose the Profile Windows Defender Antivirus
 
-Picture3.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture3.png)
 
 Fill in a name and description
 
-Picture4.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture4.png)
 
 Now, let’s set the following Configuration Settings
 
-Picture5.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture5.png)
 
-Picture6.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture6.png)
 
 
 Make sure to add exclusions that are needed for your business needs!
 
-Picture7.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture7.png)
 
-Picture8.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture8.png)
 
-Picture9.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture9.png)
 
-Picture10.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture10.png)
 
-Picture11.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture11.png)
 
-Picture12.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture12.png)
 
-Picture13.png
-
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture13.png)
 Add to All Devices and create the policy!
 
-Picture14.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture14.png)
 
 **Create a profile for Windows 10, Windows 11 and Windows Server and Choose the Profile Windows Security Experience**
 
 **Create a name and description of your choice**
 
-Picture15.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture15.png)
 
 Configure the following settings:
 
-Picture16.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture16.png)
 
-Picture17.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture17.png)
 
-Picture17.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture18.png)
 
 Customize your Company Information
 
-Picture19.png
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture19.png)
 
 Add to All Devices and Create Policy
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.001.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture20.png)
 
 **Create a profile for Windows 10, Windows 11 and Windows Server and Choose the Profile Defender Update controls**
 
 Create a name and description of your choice
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.002.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture21.png)
 
 Configure the following settings
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.003.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture22.png)
 
 Add to All Devices and Create Policy
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.004.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture23.png)
 
 # Disk Encryption
 
 Within the Microsoft Intune Admin Center -> Endpoint Security -> Disk Encryption -> Create a new Policy
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture24.png)
 
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.005.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture25.png)
 
-Fill in a name and description that fits your organization
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture26.png)
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture27.png)
 
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.006.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture28.png)
 
-Configure the following Configuration Settings
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture29.png)
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture30.png)
 
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.007.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.008.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.009.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.010.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.011.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture31.png)
 
 Add All Devices and Create Policy
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.012.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture32.png)
 
 # Windows Firewall
 
 Within the Microsoft Intune Admin Center -> Endpoint Security – Firewall -> Create a new Policy
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.013.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture33.png)
 
 Fill in a Name and Description that fits your organization
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.014.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture34.png)
 
 Configure the following Configuration settings
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture35.png)
 
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.015.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture36.png)
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture37.png)
 
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.016.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture38.png)
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.017.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.018.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.019.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture39.png)
 
 **Use the same settings for Public and Private network Firewall!**
 
 Add All Devices and Create the Policy
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.020.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture40.png)
 
 # Endpoint Detection and Response (EDR)
 
 Within the Microsoft Intune Admin Center -> Endpoint Security – Endpoint Detection and Response -> Create a new Policy
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.021.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture41.png)
 
 Fill in a name and description that fits your organization
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.022.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture42.png)
 
 Configure the following Configuration Settings
 
 Use Connector if possible for onboarding, otherwise upload to blob storage and fill in the url!
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.023.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture43.png)
 
 Add All Devices and create policy
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.024.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture44.png)
 
 # Account Protection
 
 Within the Microsoft Intune Admin Center -> Endpoint Security – Account Protection -> Create a new Policy
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.025.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture45.png)
 
 Fill in a name and description that fits your organization
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.026.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture46.png)
 
 Configure the following Configuration Settings
 
-![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture47.png)
 
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.027.png)
-
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.028.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture48.png)
 
 Add All Devices and Create the policy
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.2bd21043-a743-4363-9ce6-675cd4e0b401.029.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/Microsoft%20Defender%20for%20Endpoint/Source/Picture49.png)
 # Summary
 
 The ITCowboys thank you for taking your time to read and hopefully deploy the recommendations from this document within your own Environment! We aim to inspire, help and educate people and organizations zo get the most out of the Microsoft Cloud.
