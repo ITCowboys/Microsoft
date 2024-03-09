@@ -11,9 +11,7 @@ Microsoft Purview Information Protection (formerly known as Azure Information Pr
 1. **Integration and Compatibility**: Microsoft Purview Information Protection integrates with a wide range of Microsoft products and services, such as Microsoft 365, Azure services, Windows, and third-party applications, providing a seamless data protection experience across different platforms.
 1. **Cross-Platform Support**: It extends its data protection capabilities beyond Microsoft environments, offering support for various types of non-Microsoft files and services, ensuring comprehensive protection regardless of the data's location.
 
-![A diagram of data loss
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.001.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture1.png)
 
 In essence, Microsoft Purview Information Protection empowers organizations to effectively manage and secure their data, helping them meet compliance requirements and protect sensitive information against unauthorized access and leaks.
 
@@ -61,7 +59,7 @@ The next subjects within this Baseline document will be:
 ### Enable Office for Web Integration
 
 1. Within compliance.microsoft.com -> Information Protection you will see the following screen including the yellow popup
-   ![](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.002.png)
+   ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture2.png)
 1. Click on “Turn on now”
 1. You are now able to access Sensitivity Labels from the Office Web Apps!
 
@@ -70,33 +68,22 @@ Here you will see an example of creating a Information Protection Label, please 
 
 1. Within compliance.microsoft.com -> Information Protection -> Labels, Click on Create a Label
 1. Fill in the name and description of the label
-   ![A screenshot of a computer
+  ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture3.png)
 
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.003.png)
 1. Apply the label on Files and Email
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture4.png)
 
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.004.png)
 1. Select Control Access (and) Content Marking based on your Label Baseline
-   ![A screenshot of a computer
+ ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture5.png)
 
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.005.png)
 1. If Applicable select “Go to co-authoring setting”
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.006.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture6.png)
 1. Turn on co-authoring setting
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.007.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture7.png)
 1. Let remove encryption (needed when declassifying data)
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.008.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture8.png)
 1. We don’t want to auto-label files with a Public label
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.009.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture9.png)
 1. Create Label
 
 ### Applying the Sensitivity Labels
@@ -105,35 +92,21 @@ Now it’s time to publish our labels to All users!
 
 Within compliance.microsoft.com -> Information Protection -> Label Policy, Click on Publish Labels
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.010.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture10.png)
 
 1. Choose the Labels you just created
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.011.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture11.png)
 1. Publish to all users and groups
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.012.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture12.png)
 1. Make sure a justification and label are mandatory
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.013.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture13.png)
 1. Default label for Documents -> Internal
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.014.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture14.png)
 1. Default label for Emails -> Same as Document and Inherit from attachment
-   ![A screenshot of a computer screen
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.015.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture15.png)
 1. Name your Policy: Default Label Policy
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.016.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture16.png)
 
 
 
@@ -143,9 +116,7 @@ Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa
 Now we want to make sure that certain information is automatically labeled as Internal. Within compliance.microsoft.com -> Information Protection -> Auto-Labeling, Click on Create Auto Labeling Policy
 
 1. Choose GDPR Enhanced
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.017.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture17.png)
 1. Naam: GDPR Enhanced – Internal
 1. All Sites & OneDrive Accounts
 1. Common Rules
@@ -170,9 +141,7 @@ Within compliance.microsoft.com -> Data Loss Prevention -> Policies, Click on Cr
    1. Name: Remove Label
    1. Set content as shown below:
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.1580ebcd-c160-4d5f-8696-2a76fa8a328f.018.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Information%20Protection%20Baseline/Source/Picture18.png)
 
 ### Set auto-labeling for data at rest with Microsoft Defender for Cloud Apps
 
