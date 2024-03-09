@@ -12,9 +12,7 @@ Bring Your Own Key (BYOK) within Microsoft Purview Information Protection is a f
 
 BYOK within Microsoft Purview Information Protection offers a higher degree of control and security for organizations, enabling them to meet their specific data protection, compliance, and regulatory needs while leveraging the scalability and efficiencies of cloud services.
 
-` `![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.41d90c0c-a9e0-42ed-a4c7-493c0611b613.001.jpeg)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Bring%20Your%20Own%20Key%20(BYOK)/Source/Picture1.jpg)
 
 **Summary:**
 
@@ -48,10 +46,7 @@ Bring Your Own Key Encrypts your data in Transit which is Protected with Microso
 - On-premises services running Exchange and SharePoint applications that use the Azure Rights Management service via the RMS connector
 - Client applications, such as Office 2019, Office 2016, and Office 2013
 
-
-` `![A diagram of a cloud security system
-
-Description automatically generated](Aspose.Words.41d90c0c-a9e0-42ed-a4c7-493c0611b613.002.jpeg)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Bring%20Your%20Own%20Key%20(BYOK)/Source/Picture2.jpg)
 ## Implementing Bring Your Own Key in your Tenant
 
 - First of all you would need to have the right license withing your tenant. Summarized you would need to have a E5 license
