@@ -13,9 +13,7 @@ Microsoft Sentinel is a cloud-native Security Information and Event Management (
 1. **Cost Management and Scalability**: Sentinel offers a flexible and scalable pricing model based on the volume of data ingested for analysis, making it accessible for organizations of all sizes. It leverages Azure's scalable infrastructure to efficiently handle large volumes of data without the need for additional on-premises infrastructure.
 
 
-![A diagram of a cloud
-
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.001.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture1.png)
 
 In summary, Microsoft Sentinel provides organizations with a comprehensive and integrated SIEM and SOAR solution, offering advanced threat detection, automated incident response, and extensive data analysis capabilities. It helps businesses manage their security posture more effectively, respond to incidents rapidly, and reduce overall security risks.
 
@@ -31,7 +29,7 @@ Additionally, it supports integration with Azure services through connectors for
 
 For integration with external security and application ecosystems beyond Microsoft's offerings, Microsoft Sentinel provides specialized connectors. It also allows for the connection of your data sources using common event formats, Syslog, or REST-APIs, broadening its compatibility and integration capabilities.
 
-![Screenshot of the data connectors page in Microsoft Sentinel that shows a list of available connectors.](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.002.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture2.png)
 
 **Workbooks**
 
@@ -39,15 +37,13 @@ Once you've set up Microsoft Sentinel, you can oversee your data through its int
 
 While workbooks might appear different in Microsoft Sentinel compared to Azure Monitor, understanding how to craft a workbook in Azure Monitor can still be beneficial. Microsoft Sentinel enables the creation of custom workbooks tailored to your data needs. Furthermore, it includes pre-designed workbook templates, empowering you to immediately derive valuable insights from your data upon connecting a source.
 
-![Screenshot of workbooks page in Microsoft Sentinel with a list of available workbooks.](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.003.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture3.png)
 
 **Analytics Rules**
 
 To streamline your workflow and decrease the volume of alerts requiring your attention, Microsoft Sentinel leverages analytics to consolidate related alerts into incidents. An incident represents a collection of related alerts that, when combined, suggest a potentially actionable threat for investigation and resolution. You can utilize the default correlation rules as provided or adapt them as a foundation for crafting personalized ones. Moreover, Microsoft Sentinel offers machine learning-based rules designed to understand your network's typical behavior patterns and identify anomalies across your resources. This analytical approach enhances threat detection by merging low fidelity alerts pertaining to various entities into cohesive, high-fidelity security incidents, thereby clarifying and prioritizing potential threats.
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.004.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture4.png)
 
 **Playbooks**
 
@@ -67,9 +63,7 @@ The automation and orchestration capabilities of Microsoft Sentinel are built on
 
 For instance, if your processes involve the ServiceNow ticketing platform, you can configure Azure Logic Apps to automatically initiate ServiceNow tickets in response to specific alerts or incidents, thereby streamlining and enhancing the efficiency of your security response mechanism.
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.005.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture5.png)
 
 **Hunting**
 
@@ -77,7 +71,7 @@ Leverage the robust hunting capabilities of Microsoft Sentinel, which are ground
 
 During your threat hunting activities, you can mark significant events using bookmarks, enabling easy revisitation of noteworthy findings. Bookmarks not only facilitate personal reference but also allow for the sharing of events with team members. Moreover, you can aggregate these marked events with related incidents, assembling a comprehensive case for in-depth investigation, thereby enhancing your organization's proactive defense posture.
 
-![Screenshot of the hunting page in Microsoft Sentinel that shows a list of available queries. ](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.006.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture6.png)
 
 **Alerts vs Incidents**
 
@@ -103,13 +97,11 @@ In summary, while alerts are the individual pieces of evidence that might indica
 
 1. In the Azure Portal -> Search for Sentinel
 1. Click on Create
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture7.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.007.png)
 1. Create Log Analytics Workspace
-   ![A screenshot of a computer
+  ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture8.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.008.png)
 1. From the Log Analytics workspaces menu in the Azure portal, select your workspace.
 1. Select Usage and estimated costs in the left pane.
 1. Select Data Retention at the top of the page.
@@ -120,22 +112,17 @@ Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a9
 
 1. In the Azure Portal -> Search for Sentinel
 1. Click on Create -> Add Microsoft Sentinel to a Workspace
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.009.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture9.png)
 
 1. Click “Add”, this takes a while.
 
 1. Finally you are presented with Microsoft Sentinel!
 
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.010.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture10.png)
 
 1. Within Sentinel, go to Settings -> Playbook Settings and give Sentinel Access to run Paybooks in your Subscription(s)
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture11.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.011.png)
 1. Now we are ready to get started with Configuring Microsoft Sentinel!
 
 ### Implementing a Data Connector
@@ -144,23 +131,18 @@ Now we have an Sentinel Instance configured we are ready to create our first Dat
 
 1. Within Sentinel go to the Content Hub and search for “Micosoft Entra ID”
 1. Please click “Install” -> **Note:** you see that there are Analytics Rules, Workbooks and Playbooks in this Solution which we are configuring later!
-   **![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.012.png)**
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture12.png)
 
 1. After installation please click “Manage”
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture13.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.013.png)
 1. Now we are in the Solution settings menu, here you see how many items need configuration.
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture14.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.014.png)
 1. Select (checkbox)  Microsoft Entra ID and open the Connector Page
 1. Select all logs and Apply changes!
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture15.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.015.png)
 1. Your Data Connector is now ready to import Data into Sentinel (this might take up to 24 hours
 
 ### Implementing a Analytics Rule
@@ -169,18 +151,15 @@ In this example we are going to use an Analytics Rule which is associated with t
 
 1. Go to the Solution Settings menu as shown in step 4 of the previous Subject.
 1. Select a rule of your choice and “Create Rule”
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture16.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.016.png)
 1. Now we are in the Rule Settings, you are able to change information and logic of this rule template to match your own requirements.
 1. On the Incident Settings, configure if your want Sentinel to create Incidents based on this Rule
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture17.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.017.png)
 1. On the Automation response tab, you can add actions as you desire. For example running a Playbook when this Alert occurs!
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture18.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.018.png)
 1. Your rule is now active!
 
 ### Implementing a Playbook
@@ -189,32 +168,25 @@ In this example we are going to use an Playbook which is associated with the Mic
 
 1. Go to the Solution Settings menu as shown in step 4 of the previous Subject.
 1. Select a Playbook and Select Configuration
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.019.png)
+ ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture19.png)
  
 1. You can also do this from the Automation -> Playbook (Templates) menu:
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture20.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.020.png)
 1. Configure the basic settings:
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture21.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.021.png)
 1. Note the Connections that are needed, sometime the Paybooks create Managed Identities which need additional Roles!
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture22.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.022.png)
 1. Create
 1. Now the Logic App (Playbook) will open
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture23.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.023.png)
 1. Review the Steps and Connectors
 1. Give the Managed Identity the Roles or Permissions it requires!
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20get%20started%20with%20Microsoft%20Sentinel/Source/Picture24.png)
 
-Description automatically generated](Aspose.Words.5ae35ea0-bd3d-48c0-9a98-ef88a938354a.024.png)
 1. Now your Playbook is ready to go! Please add as an automation action to Analytics Rules 😊
 
 ### Overview of Recommended Solutions
