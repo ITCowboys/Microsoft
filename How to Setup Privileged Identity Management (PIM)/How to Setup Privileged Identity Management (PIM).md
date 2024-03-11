@@ -12,7 +12,7 @@ Microsoft Entra Identity Privileged Identity Management (PIM) is a service desig
 1. **Multi-factor Authentication (MFA) Requirement**: To enhance security further, PIM can enforce multi-factor authentication for activating privileged roles, ensuring that only authenticated users can gain access.
 1. **Cross-platform Support**: While primarily focused on Microsoft Entra and Azure resources, PIM also extends its capabilities to manage and secure access to other Microsoft Online Services, offering a unified approach to privileged access management across the Microsoft cloud ecosystem.
 
-![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture12.jpg)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture12.png)
 
 In essence, Microsoft Entra Identity Privileged Identity Management (PIM) provides organizations with powerful tools to minimize risks associated with privileged access, enforce compliance with internal and external regulations, and ensure that privileged access management aligns with the principle of least privilege.
 
@@ -34,7 +34,7 @@ These are the roles that a user is allowed to activate through the PIM process. 
 
 Granting rights based on a request can be summarized in a short process flow as follows.
 
-![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture13.jpg)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture13.png)
 
 This reveals several core concepts:
 
@@ -46,7 +46,7 @@ This reveals several core concepts:
 
 The described approval flow is commonly applied to important (high privileged) roles with mutation rights. For less critical roles with read rights, the process is somewhat simpler.
 
-![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture14.jpg)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture14.png)
 
 Here, it is evident that the approval is automated. The user is immediately granted their read rights. However, the condition that the rights automatically expire after a certain period remains in place.
 
@@ -88,37 +88,37 @@ Next we are going to show you how to setup a Microsoft Entra Role and a Azure Re
 
 Within the Azure Portal, go to -> Privileged Identity Management -> Microsoft Entra  Roles
 
-![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture15.jpg)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture15.png)
 
 1. Select Roles
-![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture16.jpg)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture16.png)
 
 1. Select your Role of Choice, for example: Application Administrator
-![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture17.jpg)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture17.png)
 
 1. Select Settings -> Edit
 1. Configure your desired Activation Time, Require MFA, Justification, Ticket Information and Approval (if needed)
-![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture18.jpg)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture18.png)
 
 1. On the Assignment Blade, Uncheck the box for permanent active assignments, and require justification and MFA on active assignments
-  ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture19.jpg)
+  ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture19.png)
 
 1. Change Notifications as you desire.
 1. Now you have updated your Role settings you are able to Assign the role to a Security Group
-![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture20.jpg)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture20.png)
 
 1. Make sure you consolidate any existing assignments into a Security Group for easy Management!
 
 ## Azure Resource Roles
 
-For Azure Resource Roles we need to perform the same steps, with some additional actions. Go to Privileged Identity Management ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture21.jpg)
+For Azure Resource Roles we need to perform the same steps, with some additional actions. Go to Privileged Identity Management ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture21.png)
 
 1. We need to onboard Scopes for PIM, this could be Management Groups, Subscriptions, Resource Groups of Resources. In this example we will onboard a Subscription
 1. Select the Subscription and “Manage Resource”
-  ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture22.jpg)
+  ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture22.png)
 
 1. Go to Roles and Select the Role of Choice, for example: Reader
-  ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture23.jpg)
+  ![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture23.png)
   
 1. Follow the same steps as for Microsoft Entra Roles.
 1. You have now successfully implemented your first PIM roles and Assignments!
