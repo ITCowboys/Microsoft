@@ -12,7 +12,7 @@ Microsoft Entra Identity Privileged Identity Management (PIM) is a service desig
 1. **Multi-factor Authentication (MFA) Requirement**: To enhance security further, PIM can enforce multi-factor authentication for activating privileged roles, ensuring that only authenticated users can gain access.
 1. **Cross-platform Support**: While primarily focused on Microsoft Entra and Azure resources, PIM also extends its capabilities to manage and secure access to other Microsoft Online Services, offering a unified approach to privileged access management across the Microsoft cloud ecosystem.
 
-![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture12.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Privileged%20Identity%20Management%20(PIM)/Source/Picture12.jpg)
 
 In essence, Microsoft Entra Identity Privileged Identity Management (PIM) provides organizations with powerful tools to minimize risks associated with privileged access, enforce compliance with internal and external regulations, and ensure that privileged access management aligns with the principle of least privilege.
 
