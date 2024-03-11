@@ -12,7 +12,7 @@ Microsoft Entra Access Reviews is a feature within the Microsoft Entra suite des
 1. **Integration with Governance Policies**: Access Reviews is integrated with Microsoft Entra’s governance policies, supporting broader identity governance strategies. This integration helps in enforcing access policies and compliance standards across the organization.
 1. **Reporting and Compliance**: It offers detailed reporting capabilities, enabling organizations to audit access reviews, monitor compliance with access policies, and demonstrate adherence to regulatory requirements.
 
-![Plan a Microsoft Entra access reviews deployment - Microsoft Entra ID  Governance | Microsoft Learn](Aspose.Words.9b56d1eb-fd13-44eb-b6d3-840951887471.001.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Access%20Reviews/Source/Picture1.png)
 
 Microsoft Entra Access Reviews is an essential tool for organizations looking to streamline their access review processes, enhance security by ensuring appropriate access, and maintain compliance with governance and regulatory standards.
 
@@ -39,23 +39,17 @@ Next we are going to show you how to setup an Microsoft Entra Access Review!
 
 Within the Azure Portal, go to -> Identity Governance -> Access Reviews
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.9b56d1eb-fd13-44eb-b6d3-840951887471.002.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Access%20Reviews/Source/Picture2.png)
 
 1. Select “New Access Review”
 1. In this Example we are going to a create an Access Review for Guests to confirm their account Quarterly to keep access to the Tenant.
 1. Select Teams + Groups – All M365 Groups with guest users – Guest users only
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Access%20Reviews/Source/Picture3.png)
 
-Description automatically generated](Aspose.Words.9b56d1eb-fd13-44eb-b6d3-840951887471.003.png)
 1. Select users review their own access and fill in the recurrence fields
 
-   ![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.9b56d1eb-fd13-44eb-b6d3-840951887471.004.png)
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Access%20Reviews/Source/Picture4.png)
 1. Configure that if Guests don’t respond access is revoked
-   ![A screenshot of a computer
+![image](https://github.com/ITCowboys/Microsoft/blob/main/How%20to%20Setup%20Access%20Reviews/Source/Picture5.png)
 
-Description automatically generated](Aspose.Words.9b56d1eb-fd13-44eb-b6d3-840951887471.005.png)
 1. Create! That’s all 😊
