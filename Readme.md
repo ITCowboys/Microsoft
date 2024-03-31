@@ -17,9 +17,3 @@ _Jordy Herber:_
 Jordy is an exceptional hands-on Microsoft Cloud & Security Architect and an Technical Expert. His main area is the Modern Workspace with a focus on Microsoft Defender XDR.
 
 You can find Jordy on his Linkedin Page: (https://www.linkedin.com/in/jordyherber/)
-
-
-_Paul Erlings:_
-Paul is a Principal Consultant for Security & Compliance and an Security Architect. He loves everything within the Microsoft ecosystem and is a true export
-
-You can find Paul on his Linkedin Page: (https://www.linkedin.com/in/paulerlings/)
