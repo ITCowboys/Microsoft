@@ -222,6 +222,6 @@ Please feel free to provide us with feedback or success stories related to this 
 
 Please check our Website ([www.itcowboys.nl](http://www.itcowboys.nl)) and Github Repo to keep up to date with our contributions!
 
-Thanks for the ride together with the ITCowboys: Jordy Herber and Paul Erlings
+Thanks for the ride together with the ITCowboys: Jordy Herber and Unknown User
 
 
